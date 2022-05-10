@@ -71,9 +71,9 @@ basesplit = base4.replace('=', 'X').replace('A', '3').replace('B', '9').replace(
 class Main:
 	def __init__(self):
 		your.id = []
-		Rejaul.ok = []
-		Rejaul.cp = []
-		Rejaul.loop = 0
+		rejaul.ok = []
+		rejaul.cp = []
+		rejaul.loop = 0
 		try:
 			plr = requests.get('https://raw.githubusercontent.com/shivaraja.velan/apporved/main/New%20paid%F0%9F%99%83').text
 			if basesplit in plr:
@@ -100,14 +100,14 @@ class Main:
 \033[1;94m |  |_.' ||  . '|  |)|  |OO ) 
 \033[1;95m |  .   .'|  |\    |(|  '__ | 
 \033[1;96m |  |\  \ |  | \   | |     |' 
-\033[1;92m  `--' '--'`--'  `--' `-----'  
+\033[1;97m  `--' '--'`--'  `--' `-----'  
 
 \033[1;97m••••••••••••••••••••••••••••••••••••••••••••••••••••••••
-     \033[1;92m➣ \033[1;92mDEVOLPER   :    MD REJAUL KARIM
-     \033[1;91m➣ \033[1;92mFACEBOOK   :    MD REJAUL KARIM
-     \033[1;93m➣ \033[1;92mWHATSAPP :           01716813329
-     \033[1;96m➣ \033[1;92mGITHUB         :            broken-hart
-     \033[1;95m➣ \033[1;92mTOOLS          :            RANDOM CLONIN [9/10]
+     \033[1;92m➣ \033[1;92mDEVOLPER  : MD REJAUL KARIM
+     \033[1;91m➣ \033[1;92mFACEBOOK  : MD REJAUL KARIM
+     \033[1;93m➣ \033[1;92mWHATSAPP  : 01716813329
+     \033[1;96m➣ \033[1;92mGITHUB    : broken-hart
+     \033[1;95m➣ \033[1;92mTOOLS     : RANDOM CLONIN [9/10]
 \033[1;97m••••••••••••••••••••••••••••••••••••••••••••••••••••••••
     """)
 		print("%s [%sâ€¢%s] %sTOOL NAME : %sRANDOM CLONE"%(G,R,G,Y,G))
