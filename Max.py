@@ -1,5 +1,6 @@
-import os
+import os, sys, time
+from time import sleep
 try:
-	import requests
-except ImportError:
-	os.system("RCK.cpython-310.so")
+    __import__("RCK").__niki__()
+except Exception as e:
+    exit(str(e))
